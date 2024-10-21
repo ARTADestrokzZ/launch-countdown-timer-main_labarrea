@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("../images/bg-stars.svg");
+    background-color: hsl(235, 16%, 14%);
+}
+
+.launch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    color: #FFF;
+}
+
+.countdown-timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 20vh;
+}
+
+.countdown-tag{
+    text-align: center;
+}
+
+.countdown-text{
+    color: #8385A9;
+}
+
+.countdown-counter{
+    width: 100px;
+    padding: 40px;
+    border-radius: 10px;
+    background: hsl(236, 21%, 26%);
+    color: hsl(345, 95%, 68%);
+    text-align: center;
+    font-size: 30px;
+}
+
+.attribution { 
+    font-size: 16x; 
+    text-align: center; 
+    color: #FFF;
+}
+.attribution a { 
+    color: #8385A9; 
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.hill{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.medias-sociaux {
+    height: 32px;
+}
+
+.facebook path {
+    fill: #8385A9;
+    transition: fill 0.3s;
+}
+.facebook:hover path {
+    fill: hsl(345, 95%, 68%);
+}
+
+.pinterest path {
+    fill: #8385A9;
+    transition: fill 0.3s;
+}
+.pinterest:hover path {
+    fill: hsl(345, 95%, 68%);
+}
+
+.instagram path {
+    fill: #8385A9;
+    transition: fill 0.3s;
+}
+.instagram:hover path {
+    fill: hsl(345, 95%, 68%);
+}
