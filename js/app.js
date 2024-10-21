@@ -40,10 +40,10 @@ const getCountdown = () => {
 
     if(tempsRestantEnMs < 0){
         clearInterval(countdownInterval);
-        jours.textContent = 00;
-        heures.textContent = 00;
-        minutes.textContent = 00;
-        secondes.textContent = 00;
+        jours.textContent = 0;
+        heures.textContent = 0;
+        minutes.textContent = 0;
+        secondes.textContent = 0;
     }
 } 
 
