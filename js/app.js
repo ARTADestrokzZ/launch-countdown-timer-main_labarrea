@@ -12,7 +12,7 @@ const uneHeureEnMs = 1000 * 60 * 60;
 const uneMinuteEnMs = 1000 * 60;
 
 //const dateCible = Date.now() - dateOffsetEnMinutes * uneMinuteEnMs + 3000;
-const dateCible = new Date("Nov 5, 2024");
+const dateCible = new Date("Dec 5, 2024");
 
 const getCountdown = () => {
     let nowDate = Date.now();
