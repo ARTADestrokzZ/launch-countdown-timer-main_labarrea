@@ -40,6 +40,8 @@ J'ai appris à faire un compte à rebours avec un code qui est, ma foi, assez pa
 
 - [Vidéo Youtube](https://www.youtube.com/watch?v=DqsW4dchan0&t=1162s) - Ça m'a aidé à comprendre comment faire un compte à rebours alors que j'en avais jamais fait.
 
+- Copilot - Documentation et explication.
+
 ## Auteur
 
 - Website - [Antoine Labarre](https://github.com/ARTADestrokzZ/launch-countdown-timer-main_labarrea.git)
