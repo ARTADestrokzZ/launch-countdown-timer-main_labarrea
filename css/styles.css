@@ -2,13 +2,13 @@
 
 body {
     margin: 0;
-    height: 100vh;
+    height: 50vh;
     background-image: url("../images/bg-stars.svg");
     background-color: hsl(235, 16%, 14%);
 }
-@media(max-width: 360px){
+@media(min-width: 1000px){
     body {
-        height: 50vh;
+        height: 100vh;
     }
 }
 
@@ -17,11 +17,13 @@ body {
     align-items: center;
     justify-content: center;
     height: 35vh;
+    font-size: 20px;
     color: #FFF;
 }
-@media(max-width: 360px){
+@media(min-width: 1000px){
     .launch{
-        width: 600px;
+        font-size: 40px;
+        justify-content: center;
     }
 }
 
@@ -30,12 +32,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    height: 20vh;
+    gap: 5px;
 }
-@media(max-width: 360px){
+@media(min-width: 1000px){
     .countdown-timer{
-        width: 600px;
+        justify-content: center;
+        gap: 10px;
+        height: 20vh;
     }
 }
 
@@ -48,18 +51,19 @@ body {
 }
 
 .countdown-counter{
-    width: 100px;
-    padding: 40px;
+    width: 50px;
+    padding: 15px;
     border-radius: 10px;
     background: hsl(236, 21%, 26%);
     color: hsl(345, 95%, 68%);
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
 }
-@media(max-width: 360px){
+@media(min-width: 1000px){
     .countdown-counter{
-        width: 50px;
-        padding: 30px;
+        width: 100px;
+        padding: 40px;
+        font-size: 35px;
     }
 }
 
@@ -80,7 +84,7 @@ footer {
     text-align: center;
     font-size: 20px;
 }
-@media(max-width: 360px){
+@media(max-width: 600px){
     footer {
         font-size: 16px;
     }
